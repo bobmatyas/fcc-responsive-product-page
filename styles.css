@@ -1,0 +1,217 @@
+	body {
+					padding: 0;
+					margin: 0;
+					background: #fff url(img/kevin-and-winnie-smaller-screened.jpg) no-repeat top center;
+					font-family: 'Noto Sans', sans-serif;
+					font-size: 16px;
+					color: #1c1c1b;
+				}
+				
+				#header {
+					height: 125px;
+					background-color: #000;
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					position: fixed;
+					top: 0;
+					left: 0;
+					opacity: 0.9;
+					z-index: 100;
+				}
+				
+				#hero {
+					max-width: 100%;
+				}
+				
+				.header-flex {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+				}
+				
+				.hero-image {
+					margin-top: 125px;
+
+				}
+				
+				#nav-bar ul {
+					margin-right: 25px;
+					list-style-type: none;
+				}
+				
+				#nav-bar li {
+					font-weight: 600;
+				}
+				
+				#nav-bar a:link, #nav-bar a:visited {
+					color: #f4e23c;
+					text-decoration: none;
+				}
+
+				#nav-bar a:hover, #nav-bar a:active {
+					color: #f4e23c;
+					text-decoration: underline;
+				}
+
+				.features {
+					background-color: #fff;
+					padding: 5% 5%;
+				}
+				
+				.feature-box {
+					text-align: center;
+					padding: 5% 0;
+				}
+				
+				.call-to-action {
+					font-size: 40px;
+					padding-top: 200px;
+					text-align: center;
+					color: white;
+					font-family: 'Fjalla One', sans-serif;
+					margin: 5%;
+				}
+				
+				.arrow-helper {
+					text-align: center;
+					margin: 5%;
+					color: #faf1f4;
+					padding: 25px 0;
+				}
+				
+				.section-header {
+					color: #e41e74;
+					font-weight: 800;
+					font-size: 32px;
+				}
+				
+				.call-to-action-2 {
+					font-size: 32px;
+					font-weight: 800;
+				}
+				
+				.feature-header {
+					color: #04b6e4;
+					font-size: 24px;
+				}
+				
+				.description {
+					background-color: #fff;
+					padding: 10% 15%;
+					font-size: 19px;
+					line-height: 29px;
+				}
+				
+				.video-section {
+					border-top: #000 2px solid;
+					border-bottom: #000 2px solid;
+					padding: 0;
+					margin: 0;
+				}
+				
+				
+				.fa-box-open, .fa-compact-disc, .fa-video {
+					color: #ccc;
+				}
+				
+				#features ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+				}
+				
+				#features li {
+					margin: 0;
+					padding: 5px 0;
+					font-size: 110%;
+				}
+				
+				.signup {
+					background-color: #ccc;
+					padding: 5% 15%;			
+				}
+				
+				#submit {
+					margin: 5px;
+					background-color: #e41e74;
+					color: #fff;
+					text-align: center;
+					text-decoration: none;
+					padding: 10px;
+					border-radius: 5px;
+					border: none;
+					text-shadow: none;
+					box-shadow: none;
+					cursor: pointer;
+				}
+				
+				#email {
+					margin: 5px;
+					padding: 10px;
+					border-radius: 5px;
+					border: none;
+					text-shadow: none;
+					box-shadow: none;
+				}
+				
+				.notice {
+					background-color: #eee;
+					font-size: 85%;
+					padding: 2% 5%;
+					margin: 0;
+					text-align: center;
+				}
+				
+				.form-box {
+					display: flex;
+					justify-content: flex-start;
+					align-content: flex-start;
+				}
+				
+				#fa-notice a:link, #fa-notice a:visited {
+					color: #666;
+				}
+				
+				#fa-notice a:hover, #fa-notice a:active {
+					color: #666;
+				}
+				
+				/* responsive youtube css */
+				
+					.video-responsive {
+						overflow:hidden;
+						padding-bottom:56.25%;
+						position:relative;
+						height:0;
+					}
+
+					.video-responsive iframe{
+
+						height:100%;
+						width:100%;
+						position:absolute;
+						
+					}
+
+					@media screen and (min-width: 768px) {
+					
+						#nav-bar ul {
+							display: flex; 
+							justify-content: space-around;
+						}
+						
+						#nav-bar li {
+							padding: 10px 10px;
+						}
+						
+						.features-container {
+							display: flex;
+							justify-content: space-evenly;
+							align-items: flex-start;
+						}
+				
+						.feature-box {
+							padding: 0;
+						}
+				}
